@@ -4,7 +4,7 @@
 
 
 # TypeScript Tutorial - SoC Hackathon
-  This is a School of Code Challenge for bootcampers to create training materials to help your colleagues learn TypeScript so that it's more easily adopted across the organisation.  
+  This is a School of Code Challenge for bootcampers to create training materials to help colleagues learn TypeScript so that it's more easily adopted across the organisation.  
 
 ## Table of Content 
 - [Planning](#Planning)
