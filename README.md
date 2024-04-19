@@ -17,6 +17,11 @@
 
 ![alt text](flowChart.png)
 
+## Deployed Website URL
+
+- https://typescript-tutorial.netlify.app/ 
+
+
 ## Resources_links
 
 Here are for resources used as guide in building the web application.
