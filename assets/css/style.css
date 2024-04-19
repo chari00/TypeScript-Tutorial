@@ -1,0 +1,75 @@
+#title {
+  font-size: 50px;
+}
+
+header.masthead .page-heading .subheading, header.masthead .site-heading .subheading {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+  font-weight: 800;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.post-subtitle {
+  font-size: 34px;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.post-title {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+}
+
+p {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 800;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-transform: none;
+  border-radius: 0;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: .8;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+    background-color: rgba(240,237,232,0.1);
+  }
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 10px 0 30px;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
