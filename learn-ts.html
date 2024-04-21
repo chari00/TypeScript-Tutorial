@@ -85,8 +85,7 @@ id = "202"; // Also OK
                     <div class="container">
                         <h2 class="section-heading">Custom Types</h2>
                         <p>You can create custom types using interfaces or type aliases.</p>
-                        <p><span class="p-title">Interface</span>: Defines the shape of an object.</p>
-                        <section><pre class="codeblock">interface User {
+                        <p><span class="p-title">Interface</span>: Defines the shape of an object.&nbsp;In TypeScript, an interface is an abstract type that defines the contract for the shape of an object. It specifies which property names a given object can have.</p><pre class="codeblock">interface User {
   name: string;
   age: number;
 }
@@ -96,7 +95,23 @@ let user: User = {
   age: 30
 };
 
-<code></pre></code></section>
+<code></pre></code>
+                        <p><strong>Here are some key points about interfaces in TypeScript:</strong></p>
+                        <p><span class="p-title">Shape Definition</span>: An interface describes the structure or skeleton of an object.&nbsp;It enforces a specific syntax on classes, specifying the types of data an object must have.&nbsp;Essentially, an interface acts as a contract that outlines the shape of an object.</p>
+                        <p><span class="p-title">Type Checking</span>: Interfaces are used for type checking during development.&nbsp;<br>When you define an object with properties, TypeScript implicitly creates an interface based on the property names and data types.&nbsp;<br>The compiler ensures that objects conform to the defined interface.</p>
+                        <p>Let’s say we have an object with a <code>label</code>&nbsp;property of type <code>string</code>&nbsp;:</p><pre class="codeblock"><code>function printLabel(labeledObj: { label: string }) {
+    console.log(labeledObj.label);
+}
+</pre></code>
+                        <p>We can achieve the same using an interface:</p><pre class="codeblock"><code>interface LabeledValue {
+    label: string;
+}
+function printLabel(labeledObj: LabeledValue) {
+    console.log(labeledObj.label);
+}
+</pre></code>
+                        <p>The interface <code>LabeledValue</code>&nbsp;represents the requirement of having a&nbsp;<code>label</code>&nbsp; property of type <code>string</code>. The order of properties doesn’t matter; only the shape does.</p>
+                        <section></section>
                     </div>
                     <div class="container">
                         <h2 class="section-heading">Arrays and Tuples</h2>
@@ -141,7 +156,9 @@ notSure = "maybe a string";
                     </div>
                 </div>
             </div>
+            <div class="clearfix"><button class="btn btn-primary float-end" type="button" style="height: 74.6px;width: 335.1px;text-align: center;font-size: 14px;padding: 0px;"><a href="index.html" style="font-size: 18px;"><br><strong><span style="color: rgb(255, 255, 255);"> &nbsp;Back </span></strong><br><br></a></button></div>
         </div>
+
     </article>
     <footer>
         <div class="container">
