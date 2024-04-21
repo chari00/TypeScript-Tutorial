@@ -47,7 +47,7 @@
 -----
 
 
- **Below is a draft of mobile design and flow chart to visualize how the project will look  like.**
+ ### Below is a draft of mobile design and flow chart to visualize how the project will look  like.
 
 ![alt text](flowChart.png)
 
